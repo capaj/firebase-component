@@ -7,7 +7,7 @@ npm i firebase-component -S
 ```
 
 ## Usage
-```
+```javascript
 import FirebaseComponent from 'firebase-component'
 
 const firebase = new Firebase('https://<your-url>.firebaseio.com/')
