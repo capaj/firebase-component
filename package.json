@@ -1,0 +1,46 @@
+{
+  "name": "firebase-component",
+  "version": "0.1.0",
+  "description": "react.js component wrapping firebase refs for easily rendering your data",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "npm test",
+    "pretest": "standard",
+    "test": "ava spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capaj/firebase-component.git"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "realtime"
+  ],
+  "author": "capajj@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capaj/firebase-component/issues"
+  },
+  "homepage": "https://github.com/capaj/firebase-component#readme",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "babel-polyfill": "^6.7.4",
+    "babel-register": "^6.7.2",
+    "enzyme": "^2.2.0",
+    "husky": "^0.11.4",
+    "react-addons-test-utils": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "standard": "^6.0.8"
+  },
+  "dependencies": {
+    "react": "^15.0.1"
+  },
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "babel-register",
+      "babel-polyfill"
+    ]
+  }
+}
