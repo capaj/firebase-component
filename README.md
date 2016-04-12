@@ -1,5 +1,5 @@
 # firebase-component
-react.js component wrapping firebase refs for easily rendering your data
+react.js component wrapping firebase refs for easily rendering your data. Official react-fire mixin sucks-this one is written in ES6.
 
 ## Installation
 ```
@@ -19,7 +19,7 @@ const plRef = firebase.child(`some/ref`)
  }}></FirebaseComponent>
 
 // rendering an array of items
-<FirebaseComponent fbRef={plRef} forEach={(item) => {
+<FirebaseComponent fbRef={plRef} forEach={(item, key) => {
    return ...
  }} manipulate={(items) => {
    return getSortedItems(items)
